@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(48, 95, 48);
+    font-size: 55px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 2.5%;
+    font-size: 25px;
+}
+
+.manager {
+    display: grid;
+    border: 5mm ridge rgb(65, 158, 65);
+    grid-template-rows: max-content;
+    background-color: rgb(86, 144, 86);
+    color: white;
+}
+
+.engineer {
+    display: grid;
+    border: 5mm ridge rgb(65, 158, 65);
+    grid-template-rows: max-content;
+    background-color: rgb(86, 144, 86);
+    color: white;
+}
+
+.intern {
+    display: grid;
+    border: 5mm ridge rgb(65, 158, 65);
+    grid-template-rows: max-content;
+    background-color: rgb(86, 144, 86);
+    color: white;
+}
